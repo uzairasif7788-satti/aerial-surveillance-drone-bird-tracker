@@ -8,7 +8,7 @@ from firebase_admin import credentials, db
 # (Apni Firebase project ki downloaded JSON file ka path yahan dein)
 cred = credentials.Certificate('C:/Users/NICAT/Desktop/drone_new/serviceAccountKey.json') 
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'your link'
+    'databaseURL': 'your firebase project link'
 })
 
 # Firebase reference set karein jo aapke database structure ('DroneMonitoring') ke mutabiq hai
